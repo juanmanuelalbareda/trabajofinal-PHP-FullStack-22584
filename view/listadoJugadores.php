@@ -30,7 +30,7 @@
     <br> <br> <br>
     <ul class="nav nav-tabs">
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Judadores</a>
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Jugadores</a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="listadoJugadores.php">Listado de Jugadores</a></li>
                 <li><a class="dropdown-item" href="#">Link 2</a></li>
