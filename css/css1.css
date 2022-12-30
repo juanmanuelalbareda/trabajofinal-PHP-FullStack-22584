@@ -1,0 +1,85 @@
+.imag {
+    background-image: url(../images/water2.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.grisoscuro {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.alineadoizq {
+    text-align: end;
+}
+
+.grisclaro {
+    color: rgb(151, 151, 151)
+}
+
+.verde {
+    color: rgb(78, 150, 26)
+}
+
+.ancho {
+    width: 191px;
+}
+
+.textocards {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.textocards2 {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(108, 117, 124);
+    color: white;
+}
+
+.textocards3 {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(219, 52, 69);
+    color: white;
+}
+
+.imag2 {
+    background-image: url(../images/honolulu.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+}
+
+.imag3 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px;
+  }
+
+  .textopequeno {
+    font-size: 13px;
+    color:rgb(184, 170, 170);
+    }
+
+.bot1 {
+    font-size: 13px;
+    color:rgb(184, 170, 170);
+    border-color: rgb(184, 170, 170);
+    }
+
+    .bot2   {
+        background-color:rgb(150, 201, 62);
+        color: white;
+        font-size: 20px;
+    }
+
+.azulito {
+        background-color: rgb(30, 79, 109);
+        color: white;
+        font-size: 12px;
+    }
+
+   
