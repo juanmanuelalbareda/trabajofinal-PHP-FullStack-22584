@@ -2,7 +2,7 @@
     background-image: url(../images/water2.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 .grisoscuro {
@@ -57,29 +57,27 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     height: 400px;
-  }
+}
 
-  .textopequeno {
+.textopequeno {
     font-size: 13px;
-    color:rgb(184, 170, 170);
-    }
+    color: rgb(184, 170, 170);
+}
 
 .bot1 {
     font-size: 13px;
-    color:rgb(184, 170, 170);
+    color: rgb(184, 170, 170);
     border-color: rgb(184, 170, 170);
-    }
+}
 
-    .bot2   {
-        background-color:rgb(150, 201, 62);
-        color: white;
-        font-size: 20px;
-    }
+.bot2 {
+    background-color: rgb(150, 201, 62);
+    color: white;
+    font-size: 20px;
+}
 
 .azulito {
-        background-color: rgb(30, 79, 109);
-        color: white;
-        font-size: 12px;
-    }
-
-   
+    background-color: rgb(30, 79, 109);
+    color: white;
+    font-size: 12px;
+}

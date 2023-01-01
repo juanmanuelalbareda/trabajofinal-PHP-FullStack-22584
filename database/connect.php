@@ -1,12 +1,9 @@
 <?php
-$conn = new mysqli("localhost","root","","trabajo_final");
+$conn = new mysqli("localhost", "root", "", "trabajo_final");
 
 
-
-if($conn->connect_errno)
-{
-    echo "No hay conexión: (" . $conn->connect_errno . ") " . $conn->connect_error;
-    
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
 }
- 
- ?>
+?>
