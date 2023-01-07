@@ -117,11 +117,14 @@
   <div class="text-center"><small>Base de Datos de Jugadores de Waterpolo Argentino</small><br>
     <H3>Acceso a Editores</H3>
   </div> <br>
+  <button class="btn btn-success btn-sm" onclick="validarUsu()">No recuerdo mi usuario y contraseña</button>
+  <h1 id="msjusu" class="bg-danger  text-center rounded"></h1>
 
   <a name="login"></a>
   <div class="container  text-center col-3">
-    <form class="form-signin" action="controller/checkLogin.php" method="POST">
-      <input type="email" name="user" class="form-control" placeholder="Mail" required autofocus>
+    <form class="form-signin" name="form1" action="controller/checkLogin.php" method="POST">
+      <input type="email" name="mail" id="mailv" class="form-control" placeholder="Mail" required>
+      
       <br>
       <input type="password" name="pass" class="form-control" placeholder="Contraseña" required>
       <br>
@@ -160,7 +163,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"></script>
-  <script src="../js/trabajoFinal.js"></script>
+  <script>function validarUsu() {
+    console.log("ejecuto función")
+    let usu=document.getElementById("mailv").value 
+    console.log(usu)
+
+    if (usu.length>=0) { 
+        document.getElementById("msjusu").innerHTML="Envíe un Watsapp al contacto en el footer"
+    } 
+}</script>
 
 
 </body>

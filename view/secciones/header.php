@@ -34,7 +34,7 @@
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Jugadores</a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/trabajofinal/view/listadoJugadores.php">Listado de Jugadores</a></li>
-                <li><a class="dropdown-item" href="/trabajofinal/view/altajugadores.php">Alta Jugadores</a></li>
+                <li><a class="dropdown-item" href="/trabajofinal/view/altaJugadores.php">Alta Jugadores</a></li>
             </ul>
         </li>
         <li class="nav-item dropdown">

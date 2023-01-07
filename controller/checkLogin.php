@@ -2,7 +2,7 @@
 require_once("../database/connect.php");
 
 
-$user = $_POST["user"];
+$user = $_POST["mail"];
 $pass = $_POST["pass"];
 
 $queryusuario = mysqli_query($conn, "SELECT * FROM usuarios WHERE mail='$user' AND clave='$pass'");
